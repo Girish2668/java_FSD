@@ -1,0 +1,65 @@
+CSS:(cascading style sheet)
+----
+:used to design/style the web pages
+:css files will save with .css extensions
+:css files will be linked to the html files
+using the <link> tag in html file
+
+applying css to web pages
+-----------------------
+  1.inline css
+  2.internal css
+  3.external css
+
+  1. inline css:it is used to apply the css to the web pages using the style attribute in html file.
+              ex: <p style="color:red;">giri is best student .</p>
+              note: not recommended for large web pages
+              : it is recommended for small web pages when we are applying style for a single element
+
+    selector: it is used to select the elements in the web pages
+     ----
+     syntax:
+           selector{
+            property:value;
+            property2:value2;
+           }
+  2. internal css: it is used to the apply  css to the web pages using the <style> tag  in html file.
+               ex:
+                 <style>
+                      p{
+                        color:red;
+                      }
+                    </style>
+  note: it is recommended for single web pages
+  3. external css: it is used to the apply  css to the web pages using the <link> tag  in html file.
+        :need to create a css file with .css extensions
+        :css file need to link to html file using the <link>
+
+        ex: <link rel="stylesheet" href="external.css">
+               rel-relationship between the css file and html file
+               href-url of the css file(hyper text reference)
+        note:recommended for large web pages and multiple web pages
+
+        Box model:
+        -----
+        :used to design the layout of the web pages
+        :box model consists of content,padding,border and margin
+
+        content: the content of the box mode1
+        padding: the space between the content and border
+        border: the border of the box model1
+        margin: the space between the box model1(element) and the other box models(element)
+
+        block level elements:
+                       :elements occupy the full width of the pages
+                       :it supports margin and padding
+                       :it supports and height and width
+
+    inline elements:
+                : elements do not occupy the full width of the pages
+                :it does not support height and width 
+
+    conversion of block to inline level elements:
+      display:inline-block;- it supports height and width or 
+      display:inline;- it wont support height and width
+                

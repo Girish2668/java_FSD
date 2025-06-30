@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adjacent sibling</title>
+    <style>
+        div~p{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div>this is a div tag
+        <p>this is a pareagraph tag inside the div</p>
+    </div>
+    <!-- <span>this si a span tag</span> it wont select -->
+    <p>this paragraph tag along with div</p>
+    <p> this paragraph tag along with div</p>
+</body>
+</html>
